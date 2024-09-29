@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #4CAF50; 
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #2196F3;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: #ff5722; 
+        }
+        main {
+            display: flex;
+            margin: 10px;
+        }
+        article {
+            flex: 3;
+            padding: 10px;
+            background-color: #f0f4c3; 
+        }
+        section {
+            margin-bottom: 10px;
+            background-color: #ffe0b2; 
+            padding: 10px;
+        }
+        aside {
+            flex: 1;
+            padding: 10px;
+            background-color: #ffeb3b; 
+        }
+        footer {
+            background-color: #795548; 
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Website Header</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <section>
+                <h2>Section 1</h2>
+                <p>This is the first section of the article.</p>
+            </section>
+            <section>
+                <h2>Section 2</h2>
+                <p>This is the second section of the article.</p>
+            </section>
+            <section>
+                <h2>Section 3</h2>
+                <p>This is the third section of the article.</p>
+            </section>
+        </article>
+
+        <aside>
+            <h2>Aside Section</h2>
+            <p>This is the sidebar content.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2024 Simple Website</p>
+    </footer>
+</body>
+</html>
